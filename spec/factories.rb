@@ -5,3 +5,8 @@ Factory.define :user do |user|
   user.password              "foobar"
   user.password_confirmation "foobar"
 end
+
+Factory.define :session do |session|
+  session.email                 "mhartl@example.com"
+  session.password              "foobar"
+end
